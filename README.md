@@ -34,12 +34,20 @@ To run the web interface:
 2. **Submit Requests**: Users can submit requests by selecting appropriate options from the bot's menu.
 3. **Admin Functions**: Administrators can access the admin panel by sending an `/admin` command. From there, they can manage requests and perform administrative tasks.
 
-## Local Setup
-To set up the bot locally:
+## Installation
+
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Set up your Telegram bot token in the `config.py` file.
-4. Run the bot script using `python bot.py`.
+3. Set up your Telegram bot token, group ID, admin IDs, session name, API hash, API ID, and other configurations in the `config.py` file.
+
+```python
+TOKEN = 'your telegram bot token'
+GROUP_ID = 'group id where the requests are sent forward'
+ADMIN_IDS = [admin ids here]
+
+```
+
+5. Run the bot using `python main.py`.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
