@@ -7,30 +7,39 @@ Welcome to TeleBot-Residential-Complex! This Telegram bot allows residents to su
 - **Admin Panel**: Administrators have access to an admin panel where they can manage requests, view statistics, and perform administrative tasks.
 - **Web Interface**: Requests submitted through the bot are displayed on a local webpage for easy review by security personnel.
 
+## Bot Abilities
+- **Pass a Pedestrian**: Residents can request permission for pedestrians to enter the residential complex.
+- **Pass a Car**: Residents can request permission for vehicles to enter the residential complex.
+- **Call Security**: Residents can call for security assistance directly through the bot.
+
+## Integration with FastAPI
+The bot is integrated with a FastAPI-based web interface, providing additional functionality and ease of use. The web interface allows security personnel to view and manage requests submitted through the bot in real-time.
+
+To run the web interface:
+1. Install FastAPI and Uvicorn by running `pip install fastapi uvicorn`.
+2. Navigate to the `sof_jk_bot` directory.
+3. Run the following command: `uvicorn server:app --log-level debug`.
+4. Access the web interface at the specified URL.
+
 ## Screenshots
 ![Request Submission](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/a7e25f4c-d33b-4933-8bce-8507aa1a160f)
 
 ![Web Interface](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/58ff8412-ed9f-471d-8b25-d2f32bd322de)
+
+![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/fd1174d9-e4f9-4821-b159-1b2c92fd94ac)
+
 
 ## Usage
 1. **Start the Bot**: Users can start using the bot by sending a `/start` command.
 2. **Submit Requests**: Users can submit requests by selecting appropriate options from the bot's menu.
 3. **Admin Functions**: Administrators can access the admin panel by sending an `/admin` command. From there, they can manage requests and perform administrative tasks.
 
-## Installation
-
+## Local Setup
+To set up the bot locally:
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Set up your Telegram bot token, group ID, admin IDs, session name, API hash, API ID, and other configurations in the `config.py` file.
-
-```python
-TOKEN = 'your telegram bot token'
-GROUP_ID = 'group id where the orders are sent forward'
-ADMIN_IDS = [admin ids here]
-
-```
-
-5. Run the bot using `python main.py`.
+3. Set up your Telegram bot token in the `config.py` file.
+4. Run the bot script using `python bot.py`.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
@@ -42,4 +51,3 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
