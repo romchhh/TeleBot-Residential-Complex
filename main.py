@@ -344,7 +344,7 @@ def people(message: Message):
         bot.send_message(chat_id, f"Ви заблоковані!", reply_markup=ReplyKeyboardRemove())
     else:
         bot.send_message(chat_id,
-                         f"Тепер можемо формувати заявку на дозвіл проходу для Ваших гостей, а скільки їх буде?",
+                         f"Тепер можемо формувати заявку на дозвіл проходу для Ваших гостей, яка їх кількість?",
                          reply_markup=keyboards.cancel())
         bot.clear_step_handler(message)
         bot.register_next_step_handler(message, lambda m: process_pcs_quests(m, {}))
