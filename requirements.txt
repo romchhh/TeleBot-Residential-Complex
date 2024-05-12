@@ -5,3 +5,5 @@ pydantic==2.7.1
 pyTelegramBotAPI==4.17.0
 SQLAlchemy==2.0.23
 uvicorn==0.29.0
+
+
