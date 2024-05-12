@@ -79,10 +79,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or issues, please open an issue in the [issue tracker](https://github.com/romchhh/TeleBot-Residential-Complex/issues).
 
-## Roadmap
-
-Future improvements and features planned for this project are listed in the [roadmap](ROADMAP.md) file.
-
 ## Acknowledgements
 
 - Thanks to the developers of the [FastApi](https://fastapi.tiangolo.com/) library for making it easy to make a friendship between webpage and python.
