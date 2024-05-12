@@ -1,0 +1,7 @@
+aiosqlite==0.20.0
+fastapi==0.111.0
+openpyxl==3.0.10
+pydantic==2.7.1
+pyTelegramBotAPI==4.17.0
+SQLAlchemy==2.0.23
+uvicorn==0.29.0
