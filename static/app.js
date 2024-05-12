@@ -127,8 +127,6 @@ async function displayApplications() {
             pendingApplications.push(application);
         } else {
 
-
-            // row.cells[row.cells.length +1].textContent = application.status;
             var actionsCell = document.createElement("td");
             actionsCell.textContent = application.status;
             row.appendChild(actionsCell);
@@ -151,7 +149,6 @@ async function confirmAction(action, row, application, pendingTable, confirmedTa
     if (confirm(`Ви впевнені, що бажаєте ${action} заявку?`)) {
         application.status = action === 'підтвердити' ? 'Підтверджено' : 'Відхилено';
         console.log(application);
-        // Update the status directly in the "Status" column and add a styling class
         row.cells[8].textContent = application.status;
         row.cells[8].classList.add(application.status.toLowerCase());
 
@@ -184,8 +181,6 @@ async function confirmAction(action, row, application, pendingTable, confirmedTa
     }
 }
 
-
-
 const pendingTable = document.querySelector("#pendingApplicationsTable");
 const noPendingApplicationsMessage = document.createElement("p");
 noPendingApplicationsMessage.textContent = "Немає нових заявок";
@@ -200,18 +195,15 @@ function toggleNoPendingApplicationsMessage() {
   const pendingApplicationsCount = pendingTable.querySelectorAll("tbody tr").length;
   if (pendingApplicationsCount === 0) {
     if (!noPendingApplicationsMessage.parentNode) {
-      // Додати повідомлення, якщо його ще немає в DOM
       pendingTable.parentNode.insertBefore(noPendingApplicationsMessage, pendingTable.nextSibling);
     }
   } else {
     if (noPendingApplicationsMessage.parentNode) {
-      // Видалити повідомлення, якщо воно вже є в DOM
       noPendingApplicationsMessage.remove();
     }
   }
 }
 
-// Відобразити повідомлення "Немає нових заявок" відразу після завантаження сторінки
 toggleNoPendingApplicationsMessage();
 
 displayApplications();
