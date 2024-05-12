@@ -17,8 +17,8 @@ The bot is integrated with a FastAPI-based web interface, providing additional f
 
 To run the web interface:
 1. Install FastAPI and Uvicorn by running `pip install fastapi uvicorn`.
-2. Navigate to the `sof_jk_bot` directory.
-3. Run the following command: `uvicorn server:app --log-level debug`.
+2. Navigate to the `Kursova_Telegram_Bot` directory.
+3. Run the following command: `uvicorn TeleBot.server.server:app --log-level debug --port=8001`.
 4. Access the web interface at the specified URL.
 
 ## Screenshots
@@ -41,9 +41,12 @@ To run the web interface:
 3. Set up your Telegram bot token, group ID, admin IDs, session name, API hash, API ID, and other configurations in the `config.py` file.
 
 ```python
-TOKEN = 'your telegram bot token'
-GROUP_ID = 'group id where the requests are sent forward'
-ADMIN_IDS = [admin ids here]
+
+token = "YOUR BOT TOKEN"
+admins = (ADMIN IDS,)
+group_id = GROUP ID FOR REQUEST
+db_data_name = "PATH TO YOUR DB FILE"
+URL_SITE = f'http://127.0.0.1:8001' # in index.html, app.js
 
 ```
 
