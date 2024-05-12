@@ -74,3 +74,19 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For any questions or issues, please open an issue in the [issue tracker](https://github.com/your-username/telegram-marketplace-bot/issues).
+
+## Roadmap
+
+Future improvements and features planned for this project are listed in the [roadmap](ROADMAP.md) file.
+
+## Acknowledgements
+
+- Thanks to the developers of the [FastApi]([https://github.com/aiogram/aiogram](https://fastapi.tiangolo.com/)) library for making it easy to make a friendship between webpage and python.
+
+## Contact
+
+For any inquiries or feedback, please contact [Roman](mailto:roman.fedoniuk@gmail.com).
