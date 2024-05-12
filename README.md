@@ -62,7 +62,7 @@ URL_SITE = f'http://127.0.0.1:8001' # in index.html, app.js
 
 ```
 
-5. Run the bot using `python main.py`.
+5. Run the bot using `python3 main.py`.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
@@ -77,7 +77,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-For any questions or issues, please open an issue in the [issue tracker](https://github.com/your-username/telegram-marketplace-bot/issues).
+For any questions or issues, please open an issue in the [issue tracker](https://github.com/romchhh/TeleBot-Residential-Complex/issues).
 
 ## Roadmap
 
@@ -85,7 +85,7 @@ Future improvements and features planned for this project are listed in the [roa
 
 ## Acknowledgements
 
-- Thanks to the developers of the [FastApi]([https://github.com/aiogram/aiogram](https://fastapi.tiangolo.com/)) library for making it easy to make a friendship between webpage and python.
+- Thanks to the developers of the [FastApi](https://fastapi.tiangolo.com/) library for making it easy to make a friendship between webpage and python.
 
 ## Contact
 
