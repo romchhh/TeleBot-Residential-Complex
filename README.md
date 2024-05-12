@@ -24,17 +24,17 @@ To run the web interface:
 ## Screenshots
 ![Request Submission](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/a7e25f4c-d33b-4933-8bce-8507aa1a160f)
 
-![Web Interface](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/58ff8412-ed9f-471d-8b25-d2f32bd322de)\\
+![Web Interface](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/58ff8412-ed9f-471d-8b25-d2f32bd322de)__
 
-As you can see you can only open the local web page from admin panel in the bot (/admin):\
+As you can see you can only open the local web page from admin panel in the bot (/admin):
 
-![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/22abfae7-76a4-444e-b757-77476cfa4fc6)\\
-
-
-![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/ba550702-9142-4035-8857-5aec3b2306d7)\\
+![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/22abfae7-76a4-444e-b757-77476cfa4fc6)
 
 
-And here you can see like new requests are looking like to security:\
+![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/ba550702-9142-4035-8857-5aec3b2306d7)
+
+
+And here you can see like new requests are looking like to security:
 
 ![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/28af14cf-a2da-4f35-b6a9-dd9d2a55e14e)
 
