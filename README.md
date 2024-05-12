@@ -26,6 +26,11 @@ To run the web interface:
 
 ![Web Interface](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/58ff8412-ed9f-471d-8b25-d2f32bd322de)
 
+As you can see you can only open the local web page from admin panel in the bot (/admin):
+
+![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/22abfae7-76a4-444e-b757-77476cfa4fc6)
+
+
 ![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/ba550702-9142-4035-8857-5aec3b2306d7)
 
 
