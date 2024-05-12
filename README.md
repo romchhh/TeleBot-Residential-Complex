@@ -26,7 +26,14 @@ To run the web interface:
 
 ![Web Interface](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/58ff8412-ed9f-471d-8b25-d2f32bd322de)
 
-![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/fd1174d9-e4f9-4821-b159-1b2c92fd94ac)
+![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/ba550702-9142-4035-8857-5aec3b2306d7)
+
+
+And here you can see like new requests are looking like to security:
+
+![image](https://github.com/romchhh/TeleBot-Residential-Complex/assets/123520267/28af14cf-a2da-4f35-b6a9-dd9d2a55e14e)
+
+
 
 
 ## Usage
@@ -38,7 +45,7 @@ To run the web interface:
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running `pip install -r requirements.txt`.
-3. Set up your Telegram bot token, group ID, admin IDs, session name, API hash, API ID, and other configurations in the `config.py` file.
+3. Set up your Telegram bot token, group ID, admin IDs, and other configurations in the `config.py` file.
 
 ```python
 
