@@ -14,7 +14,6 @@ bot = telebot.TeleBot(token, threaded=False)
 sys.setrecursionlimit(10 ** 6)
 conn = sqlite3.connect("TeleBot/data/data.db")
 
-
 @bot.message_handler(commands=["admin"], func=lambda m: m.from_user.id == m.chat.id and m.from_user.id in admins)
 def admin_command(message: Message):
     user_id = message.chat.id
@@ -395,12 +394,6 @@ def protection(message: Message):
                          reply_markup=user_keyboard.phone())
         bot.clear_step_handler(message)
         bot.register_next_step_handler(message, process_phone)
-
-
-"""@bot.message_handler()
-def group_some(message: Message):
-    start(message)"""
-
 
 @bot.callback_query_handler(func=lambda c: c.data)
 def callback(callback_query: telebot.types.CallbackQuery):
